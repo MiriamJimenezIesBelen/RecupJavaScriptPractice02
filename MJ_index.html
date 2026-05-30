@@ -53,6 +53,16 @@
             margin: 0;
         }
 
+        #badge-filtro {
+            display: inline-block;
+            background: #e9ecef;
+            border-radius: 20px;
+            padding: 4px 14px;
+            font-size: 0.85rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
         table {
             width: 100%;
             max-width: 750px;
@@ -103,11 +113,13 @@
 <div class="checkbox">
     <label>Elige un idioma: </label>
     <label id="soloOficialLabel">
-        <input type="checkbox" name="soloOficiales" id="soloOficiales">
+        <input type="checkbox" name="idiomaOficial" id="idiomaOficial">
         Solo idiomas oficiales
     </label>
     <div id="radioIdiomas"></div>
 </div>
+
+<span id="badge-filtro"></span>
 
 <table>
     <thead>
